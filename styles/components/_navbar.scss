@@ -1,0 +1,21 @@
+.nav {
+  padding: 40px 0;
+}
+.flex-nav {
+  justify-content: space-between;
+}
+
+.nav-items {
+  gap: 30px;
+  cursor: pointer;
+  align-items: center;
+
+  & > li {
+    padding: 5px 0;
+  }
+
+  & > li:hover {
+    border-bottom: $white solid 4px;
+    border-radius: 2px;
+  }
+}

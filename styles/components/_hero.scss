@@ -1,0 +1,24 @@
+.header {
+  background-image: url("./../../images/desktop/image-hero.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: $white;
+  font-family: $font-family-primary;
+}
+
+.hero {
+  box-sizing: content-box;
+  & h1 {
+    font-family: $font-family-secondary;
+    font-size: 4rem;
+    border: $white 3px solid;
+    // padding: 1rem 2rem;
+    // padding-right: 100px;
+    margin-top: 200px;
+    width: 550px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+  }
+}
