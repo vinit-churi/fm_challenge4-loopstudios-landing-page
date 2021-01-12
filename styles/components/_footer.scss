@@ -1,0 +1,44 @@
+footer {
+  background-color: $black;
+  color: $white;
+
+  & .logo-icons {
+    // margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    & .logo {
+      cursor: pointer;
+    }
+    & .icons {
+      display: flex;
+      gap: 15px;
+      font-size: 1.5rem;
+    }
+  }
+
+  & .back-links {
+    font-family: $font-family-primary;
+    display: flex;
+    justify-content: space-between;
+    color: $dark-gray;
+    align-items: center;
+
+    &_list {
+      color: $white;
+      display: flex;
+      gap: 20px;
+
+      & li {
+        padding: 10px 0;
+        cursor: pointer;
+      }
+      & li:hover {
+        border-bottom: $white solid 4px;
+      }
+    }
+    padding-bottom: 20px;
+  }
+}
