@@ -1,0 +1,33 @@
+.about {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  position: relative;
+  //   & .image {
+  //     // width: 600px;
+
+  //     & > img {
+  //       //   width: 100%;
+  //     }
+  //   }
+
+  & .about-info {
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+    background-color: $white;
+    padding-left: 75px;
+    padding-top: 75px;
+
+    &_heading {
+      font-family: $font-family-secondary;
+      font-size: 2.5rem;
+      padding-bottom: 20px;
+    }
+    &_para {
+      font-family: $font-family-primary;
+      font-weight: $font-weight-light;
+      width: 500px;
+    }
+  }
+}
